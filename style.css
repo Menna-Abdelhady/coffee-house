@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #e8d7cc;
+}
+
+header {
+  background: url("./image.jpg");
+  color: #eddace;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  height: 170px;
+}
+h1 {
+  margin: 12px 0px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #eddace;
+  text-decoration: none;
+  font-size: 20px;
+}
+section {
+  padding: 1rem;
+  text-align: center;
+  background: #6f4e37;
+
+  /* background: #6f4e37; */
+}
+#about {
+  background: #6f4e37;
+}
+#about,
+#menu {
+  color: #ffffff;
+}
+#about p {
+  padding: 0px 50px;
+}
+#menu .menu-item {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-block;
+  width: 200px;
+  background: #f9f9f9;
+  color: #6f4e37;
+  border-radius: 10px;
+}
+
+#menu button,
+.submit-btn {
+  background: #6f4e37;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#menu button:hover {
+  background: #4b382d;
+}
+
+footer {
+  background: #e8d7cc;
+  color: #6f4e37;
+  /* text-align: center; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 240px;
+}
+#contact {
+  color: #6f4e37;
+  background: #e8d7cc;
+  margin: 0px;
+  padding: 0px 10px;
+  height: 100%;
+}
+#contact h1 {
+  text-align: start;
+  padding-left: 30px;
+}
+#contact-form {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* text-align: center; */
+  width: 700px;
+}
+#contact-form div {
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+input {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+input:focus,
+textarea:focus {
+  border-color: #6f4e37;
+  box-shadow: 0 0 2px #6f4e37;
+}

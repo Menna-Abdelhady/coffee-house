@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=" en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Coffee House</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h1>Welcome to Coffee House</h1>
+      <p>
+        Crafting exceptional coffee experiences with every cup, where quality
+        meets community. We source the finest beans and brew with care to
+        deliver unmatched flavor and freshness. Join us for a warm, welcoming
+        space to connect, unwind, and savor every moment.
+      </p>
+    </section>
+
+    <section id="menu">
+      <h1>Our Menu</h1>
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <p>Rich and bold coffee shot - 70 LE</p>
+        <button onclick="orderItem('Espresso')">Order</button>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino</h3>
+        <p>Smooth blend with creamy foam - 80 LE</p>
+        <button onclick="orderItem('Cappuccino')">Order</button>
+      </div>
+      <div class="menu-item">
+        <h3>Latte</h3>
+        <p>Perfect mix of milk and coffee - 75 LE</p>
+        <button onclick="orderItem('Latte')">Order</button>
+      </div>
+    </section>
+
+    <footer>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <input id="message" name="message" required></ input>
+          </div>
+
+          <button class="submit-btn" type="submit">Send</button>
+        </form>
+      </section>
+  
+        <p>© 2024 Coffee House. All rights reserved.</p>
+   
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
